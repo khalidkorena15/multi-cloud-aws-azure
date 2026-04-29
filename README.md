@@ -12,23 +12,19 @@ A real-world multi-cloud project demonstrating containerization, deployment, and
 
 \## ☁️ Architecture
 
-("D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\Multi-Cloud Application (AWS ↔ Azure.png")
 
-\- AWS ECS (Fargate) hosts nginx container
 
-"D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\awsCluster\&AzureAppService.png"
+!\[Architecture](screenshots/Multi-Cloud%20Application%20(AWS%20↔%20Azure).png)
 
-\- Amazon ECR stores Docker image
 
-"D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\Amazon ECR stores Docker image.png"
 
-\- Azure App Service hosts Flask API
+\- AWS ECS (Fargate) hosts nginx container  
 
-"D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\awsCluster\&AzureAppService.png"
+\- Amazon ECR stores Docker image  
 
-\- AWS communicates with Azure via HTTPS
+\- Azure App Service hosts Flask API  
 
-"D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\Result.png"
+\- AWS communicates with Azure via HTTPS  
 
 
 
@@ -37,6 +33,8 @@ A real-world multi-cloud project demonstrating containerization, deployment, and
 
 
 \## 🔗 Flow
+
+
 
 User → AWS ECS → Azure API → Response → User
 
@@ -48,17 +46,19 @@ User → AWS ECS → Azure API → Response → User
 
 \## 🛠️ Tech Stack
 
-\- Docker
 
-\- nginx
 
-\- Python Flask
+\- Docker  
 
-\- AWS ECS (Fargate)
+\- nginx  
 
-\- Amazon ECR
+\- Python Flask  
 
-\- Azure App Service
+\- AWS ECS (Fargate)  
+
+\- Amazon ECR  
+
+\- Azure App Service  
 
 
 
@@ -68,7 +68,13 @@ User → AWS ECS → Azure API → Response → User
 
 \## 📸 Screenshots
 
-("D:\\Multi-Cloud App(AWS$Azure)\\screenshots\\Multi-Cloud Application (AWS ↔ Azure.png")
+
+
+!\[ECR](screenshots/Amazon%20ECR%20stores%20Docker%20image.png)
+
+!\[ECS \& Azure](screenshots/awsCluster\&AzureAppService.png)
+
+!\[Result](screenshots/Result.png)
 
 
 
@@ -77,6 +83,8 @@ User → AWS ECS → Azure API → Response → User
 
 
 \## 🚀 Author
+
+
 
 Khalid Korena
 
