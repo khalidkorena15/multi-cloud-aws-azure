@@ -9,7 +9,7 @@ A real-world multi-cloud project demonstrating containerization, deployment, and
 
 - AWS ECS (Fargate) hosts nginx container  
 
-![AWS ECS](screenshots/Amazon Ecs.png)
+![AWS ECS](screenshots/Amazon%20Ecs.png)
 
 ---
 
