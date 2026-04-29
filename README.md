@@ -5,6 +5,7 @@ A real-world multi-cloud project demonstrating containerization, deployment, and
 ---
 
 ## ☁️ Architecture
+![Architecture](screenshots/multi-cloud-architecture.png)
 
 - AWS ECS (Fargate) hosts nginx container  
 
