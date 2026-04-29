@@ -6,12 +6,27 @@ A real-world multi-cloud project demonstrating containerization, deployment, and
 
 ## ☁️ Architecture
 
+- AWS ECS (Fargate) hosts nginx container  
+
 ![Architecture](screenshots/Multi-Cloud%20Application%20(AWS%20↔%20Azure).png)
 
-- AWS ECS (Fargate) hosts nginx container  
+---
+
 - Amazon ECR stores Docker image  
+
+![ECR](screenshots/Amazon%20ECR%20stores%20Docker%20image.png)
+
+---
+
 - Azure App Service hosts Flask API  
+
+![Azure App Service](screenshots/awsCluster&AzureAppService.png)
+
+---
+
 - AWS communicates with Azure via HTTPS  
+
+![Result](screenshots/Result.png)
 
 ---
 
@@ -29,16 +44,6 @@ User → AWS ECS → Azure API → Response → User
 - AWS ECS (Fargate)  
 - Amazon ECR  
 - Azure App Service  
-
----
-
-## 📸 Screenshots
-
-![ECR](screenshots/Amazon%20ECR%20stores%20Docker%20image.png)
-
-![ECS & Azure](screenshots/awsCluster&AzureAppService.png)
-
-![Result](screenshots/Result.png)
 
 ---
 
